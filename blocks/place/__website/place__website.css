@@ -1,5 +1,9 @@
 .place__website {
-  width: 100%;
   align-self: end;
-  /* grid-area: website; */
+}
+
+@media screen and (max-width: 768px){
+  .place__website {
+    padding-left: 16px;
+  }
 }

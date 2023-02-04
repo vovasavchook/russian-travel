@@ -5,3 +5,23 @@
   flex-direction: column;
   row-gap: 92px;
 }
+
+@media screen and (max-width: 1280px){
+  .main {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .main {
+    row-gap: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .main {
+    row-gap: 64px;
+    padding-top: 48px;
+  }
+}

@@ -1,10 +1,14 @@
 .place__paragraph {
   margin: 0;
-  /* width: 100%; */
 
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
+}
 
-  /* grid-area: paragraph; */
+@media screen and (max-width: 1024px){
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

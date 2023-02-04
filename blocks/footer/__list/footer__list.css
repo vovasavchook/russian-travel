@@ -1,0 +1,17 @@
+.footer__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 768px){
+  .footer__list {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}
