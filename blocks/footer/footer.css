@@ -1,0 +1,14 @@
+.footer {
+  /* width: 100%; */
+  padding: 0 48px;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content)) 1fr;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer {
+    padding: 0 24px;
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  padding: 0 48px;
+
+  display: grid;
+  grid-template-columns: 1fr min-content min-content;
+  align-items: end;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 1024px){
+  .header {
+    padding: 0 24px;
+  }
+}
