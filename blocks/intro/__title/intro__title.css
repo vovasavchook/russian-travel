@@ -8,7 +8,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .intro__title {
     max-width: 210px;
 

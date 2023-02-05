@@ -5,13 +5,13 @@
   grid-template-columns: max-content 1fr;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .footer {
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .footer {
     padding: 0 16px;
     grid-template-columns: minmax(min-content, max-content);

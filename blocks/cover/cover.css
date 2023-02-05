@@ -23,11 +23,11 @@
   transition: opacity .3s;
 }
 
-.cover:hover.cover::before {
+.cover:hover::before {
   opacity: .8;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
   .cover {
     margin: 0;
   }

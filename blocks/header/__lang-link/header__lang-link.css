@@ -1,4 +1,6 @@
 .header__lang-link {
+  margin-bottom: 6px;
+
   color: #fff;
   text-decoration: none;
   font-weight: 400;
@@ -12,8 +14,10 @@
   opacity: .7;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .header__lang-link {
+    margin-bottom: 8px;
+
     font-size: 18px;
     line-height: 20px;
   }

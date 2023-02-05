@@ -7,19 +7,20 @@
   row-gap: 80px;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
   .places {
     padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .places {
     padding: 0 24px;
+    row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .places {
     padding: 0;
     row-gap: 50px;
