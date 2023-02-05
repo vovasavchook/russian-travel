@@ -12,6 +12,4 @@
 * БЭМ *методология*
 * адаптивная верстка
 
-**Ссылка**
-
-[https://vovasavchook.github.io/russian-travel/index.html]
+[**Ссылка**](https://vovasavchook.github.io/russian-travel/index.html)
